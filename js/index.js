@@ -3,7 +3,7 @@ function ajaxRequest (config) {
     options.data = config.data || {};
     options.type = (config.type || 'GET').toUpperCase();
     options.dataType = config.dataType || 'json';
-    options.async = config.async || true;
+    options.async = config.async || true; // 同步还是异步
     options.url = config.url;
     options.header = config.header || 'application/json;charset=UTF-8';
     options.success = config.success || function () {};
