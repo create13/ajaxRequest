@@ -1,5 +1,6 @@
 # ajaxRequest
 ## 使用方法
+(```)
   ajaxRequest({
       url: 'http://mock-api.com/3Egd0XgM.mock/blueData.do',
       type: 'Get', // 非必填 不填默认是get
@@ -14,5 +15,6 @@
           console.log(err)
       }
   }
+  (```)
  ## 说明
  默认没有兼容IE低版本
