@@ -14,7 +14,7 @@
       fail: function (err) {
           console.log(err)
       }
-  }
+  })
  ```
  ## 说明
  默认没有兼容IE低版本
